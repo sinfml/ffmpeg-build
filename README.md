@@ -19,6 +19,6 @@ wget http://www.ffmpeg.org/releases/ffmpeg-2.2.2.tar.gz
 ```
 tar zxf ffmpeg-2.2.2.tar.gz
 cp build.sh ffmpeg-2.2.2/
-cd ffmpeg-2.1.4/
+cd ffmpeg-2.2.2/
 ./build.sh
 ```

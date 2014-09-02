@@ -43,6 +43,10 @@ make clean
     --enable-parser=mpegaudio \
     --enable-muxer=mp3 \
     --enable-encoder=libmp3lame \
+   # --enable-version3 \
+   # --enable-libopencore-amrnb \
+   # --enable-encoder=libopencore_amrnb \
+   # --enable-muxer=amr \
     --enable-small
 
 make -j 8
